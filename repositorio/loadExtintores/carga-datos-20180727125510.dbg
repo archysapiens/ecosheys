@@ -1,0 +1,8 @@
+NoCteDbg >>150<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=150 AND cont.no_cliente=150;<< 
+count >>1<< 
+NombreCliente >>LANDSTEINER SCIENTIFIC S.A. DE C.V (CELAN 2)  << 
+NombreClienteMo >>LANDSTEINER SCIENTIFIC S.A. DE C.V (CELAN 2)  << 
+DireccionCliente >>PROLONGACION CALLE 6 NORTE, MANZANA 12, LOTE 410, PARQUE INDUSTRIAL TOLUCA 2000 /  /  / PARQUE INDUSTRIAL TOLUCA / TOLUCA / ESTADO DE MEXICO-50293<< 
+Correo >>izotea@landsteiner.com;amiguel@landsteiner.com<< 
+TypeAutocomplite >>CheckList<< 

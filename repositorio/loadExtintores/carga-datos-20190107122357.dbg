@@ -1,0 +1,14 @@
+NoCteDbg >>843<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=843 AND cont.no_cliente=843;<< 
+count >>1<< 
+NombreCliente >>SARUM CONTRUCCIONES SA DE CV/ PLAZA COMERCIAL RANCHO EL MESON<< 
+NombreClienteMo >>SARUM CONTRUCCIONES SA DE CV/ PLAZA COMERCIAL RANCHO EL MESON<< 
+DireccionCliente >>CARRETERA TOLUCA-TENANGO A CALIMAYA / FRACCIONAMIENTO RANC / KM 1/PLANTA / SAN ANDRES OCOTLAN / CALIMAYA / ESTADO DE MEXICO-52201<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='843' AND ID_ORDENT LIKE '843%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='843' AND ID_ORDENT LIKE '843OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='843' AND ID_ORDENT LIKE '843%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>0<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

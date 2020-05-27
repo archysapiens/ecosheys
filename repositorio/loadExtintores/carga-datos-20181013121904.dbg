@@ -1,0 +1,10 @@
+NoCteDbg >>134<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=134 AND cont.no_cliente=134;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>MARGARITA MA BARBABOSA<< 
+DireccionCliente >>GUADALUPE VICTORIA /  / 226 / METEPEC / METEPEC / ESTADO DE MEXICO-<< 
+Correo >>maga.2805@hotmail.com<< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='134' AND ID_ORDENT LIKE '134%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='134' AND ID_ORDENT LIKE '134OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 

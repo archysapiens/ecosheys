@@ -1,0 +1,37 @@
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->Explorando  $_REQUEST 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->rfcRESPALDOFi => RFCTEMPNO2555 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->numeroRESPALDOF => 2555 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->rfcFi => RFCTEMPNO2555 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->nombreFi => MIDORI 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->app_paternoFi => CABALLERO 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->app_maternoFi => PALOMARES 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->no_clienteFi => 2555 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->txtteloficinaFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->txttelCelularFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->txtobservaFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->txtcorreoFi => midoricaballero@yahoo.com.mx 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->HORACT1Fi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->HORACT2Fi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->HORACT3Fi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->HORACT4Fi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->calleFi => JOSE MARIA MORELOS PONIENTE  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->txtsucursalFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->nraFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->no_cta_Fi => NA 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->giroFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->num_extFi => DESPACHO 1 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->num_intFi => 607 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->localidadFi => TOLUCA 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->municipioFi => TOLUCA 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->zonaFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->estadoFi => ESTADO DE MEXICO 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->cpFi => 50071 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->tentrecalle1Fi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->tentrecalle2Fi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->referenciaFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->latitudF => 19.2910993 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->longitudF => -99.61346630000003 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->medioPagoFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->metodoPagoFi =>  
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->txtIdPagoFi => 4472 
+D:\inetpub\wwwroot\hosting\arsoft\archysoft.com.mx\www\ecosheys2017\controllers\searchClient.php-->180028-->Cliente->searchUpdateClient(_REQUEST);

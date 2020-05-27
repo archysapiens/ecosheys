@@ -1,0 +1,8 @@
+NoCteDbg >>779<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=779 AND cont.no_cliente=779;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>ALEPACK SA DE CV  << 
+DireccionCliente >>CALLE ARIES  PARQUE INDUSTRIAL SAN ANTONIO EL LLANITO / BODEGA 15 / 1 / CENTRO OCOYOACAC / OCOYOACAC / ESTADO DE MEXICO-52740<< 
+Correo >><< 
+TypeAutocomplite >>CheckList<< 

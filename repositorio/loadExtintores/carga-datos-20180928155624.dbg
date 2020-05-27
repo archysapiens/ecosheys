@@ -1,0 +1,10 @@
+NoCteDbg >>874<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=874 AND cont.no_cliente=874;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>LABORATORIOS KENER SA DE CV<< 
+DireccionCliente >>PASEO DE LOS TAMARINDOS TORRE PONIENTE /  / 400 / DEL CUAJIMALPA / DEL CUAJIMALPA / DISTRITO FEDERAL-5120<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='874' AND ID_ORDENT LIKE '874%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='874' AND ID_ORDENT LIKE '874OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 

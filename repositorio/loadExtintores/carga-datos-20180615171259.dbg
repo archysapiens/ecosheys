@@ -1,0 +1,10 @@
+NoCteDbg >>2455<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=2455 AND cont.no_cliente=2455;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>ECO CORPORACIÓN EMPRESARIAL MÉXICO S.A. DE C.V.  << 
+DireccionCliente >>TACANA , METEPEC, MÉXICO / 200, /  / XINANTECATL / METEPEC / ESTADO DE MEXICO-52169<< 
+Correo >>lrojas@eco-consulting.com<< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='2455' AND ID_PG_PH LIKE '2455%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport2455.json<< 

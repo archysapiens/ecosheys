@@ -1,0 +1,14 @@
+NoCteDbg >>5<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=5 AND cont.no_cliente=5;<< 
+count >>1<< 
+NombreCliente >>INSTITUTO DE ALERGIAS Y AUTOINMUNIDAD A.C.  << 
+NombreClienteMo >>INSTITUTO DE ALERGIAS Y AUTOINMUNIDAD A.C.  << 
+DireccionCliente >>HACIENDA SIERRA VIEJA / LOCAL 53 / 2 / HACIENDA DEL PARQUE 1A SECCION / CUAUTITLAN IZCALLI / ESTADO DE MEXICO-54801<< 
+Correo >>hpsolis@iaamrc.com; nortiz@iaamrc2.com<< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='5' AND ID_ORDENT LIKE '5%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='5' AND ID_ORDENT LIKE '5OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='5' AND ID_ORDENT LIKE '5%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>0<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

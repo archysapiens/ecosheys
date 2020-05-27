@@ -1,0 +1,10 @@
+NoCteDbg >>798<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=798 AND cont.no_cliente=798;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>IMPULSADORA DE TRASNPORTES MEXICANOS SA DE CV  << 
+DireccionCliente >>BLVD.ROSENDO G. CASTRO /  / 26 / LOS MOCHIS / AHOME / SINALOA-8120<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='798' AND ID_ORDENT LIKE '798%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='798' AND ID_ORDENT LIKE '798OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 

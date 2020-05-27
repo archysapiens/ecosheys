@@ -1,0 +1,14 @@
+NoCteDbg >>777<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=777 AND cont.no_cliente=777;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>MENSHEN MEXICANAS S. DE R.L. DE C.V.  << 
+DireccionCliente >>ERNESTO MONROY CARDENAS. PARQUE INDUSTRIAL EXPORTEC II /  / 109-5 /  / TOLUCA / ESTADO DE MEXICO-50200<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='777' AND ID_ORDENT LIKE '777%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='777' AND ID_ORDENT LIKE '777OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='777' AND ID_ORDENT LIKE '777%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>7<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

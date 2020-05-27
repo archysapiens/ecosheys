@@ -1,0 +1,14 @@
+NoCteDbg >>542<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=542 AND cont.no_cliente=542;<< 
+count >>1<< 
+NombreCliente >>PRODUCTOS DIETRIX SA DE CV  << 
+NombreClienteMo >>PRODUCTOS DIETRIX SA DE CV  << 
+DireccionCliente >>MARIANO SALGADO,COL. SANTA CRUZ ATZCAPOTZALTONGO CP.50030 /  / 10 /  / TOLUCA / ESTADO DE MEXICO-<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='542' AND ID_ORDENT LIKE '542%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='542' AND ID_ORDENT LIKE '542OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='542' AND ID_ORDENT LIKE '542%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>0<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

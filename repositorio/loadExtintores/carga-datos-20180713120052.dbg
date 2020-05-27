@@ -1,0 +1,14 @@
+NoCteDbg >>875<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=875 AND cont.no_cliente=875;<< 
+count >>1<< 
+NombreCliente >>ADAPTACION AL GRUPO LABORAL EDIPO SA DE CV  << 
+NombreClienteMo >>ADAPTACION AL GRUPO LABORAL EDIPO SA DE CV  << 
+DireccionCliente >>SAN MARCOS /  / S/N / LAS MARGARITAS / METEPEC / ESTADO DE MEXICO-52165<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='875' AND ID_ORDENT LIKE '875%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='875' AND ID_ORDENT LIKE '875OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='875' AND ID_ORDENT LIKE '875%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>20<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

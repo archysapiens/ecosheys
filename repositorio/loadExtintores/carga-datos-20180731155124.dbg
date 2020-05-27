@@ -1,0 +1,10 @@
+NoCteDbg >>507<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=507 AND cont.no_cliente=507;<< 
+count >>1<< 
+NombreCliente >>TIENDA GARCES S.A DE C.V/ SURTITIENDA ZITACUARO (TIENDA 17)<< 
+NombreClienteMo >>TIENDA GARCES S.A DE C.V/ SURTITIENDA ZITACUARO (TIENDA 17)<< 
+DireccionCliente >>MORELOS SUR / 25 /  /  / ZITACUARO / MICHOACAN DE OCAMPO-<< 
+Correo >><< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='507' AND ID_PG_PH LIKE '507%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport507.json<< 

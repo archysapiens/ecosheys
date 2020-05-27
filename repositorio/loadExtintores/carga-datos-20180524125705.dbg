@@ -1,0 +1,10 @@
+NoCteDbg >>1201<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=1201 AND cont.no_cliente=1201;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>RAQUEL PASTRANA AGUILAR<< 
+DireccionCliente >>SAN MARTIN CABALLERO  56 MZA 17 LT 1-4 /  /  / CUAUTITLAN IZCALLI / CUAUTITLAN IZCALLI / ESTADO DE MEXICO-54745<< 
+Correo >>raquelpastrana@telmexmail.com<< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='1201' AND ID_PG_PH LIKE '1201%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport1201.json<< 

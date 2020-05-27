@@ -1,0 +1,10 @@
+NoCteDbg >>120<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=120 AND cont.no_cliente=120;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>LUIS DANIEL MILA AVILA<< 
+DireccionCliente >>PLAN DE SAN LUIS /  / 311 / METEPEC / METEPEC / ESTADO DE MEXICO-<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='120' AND ID_ORDENT LIKE '120%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='120' AND ID_ORDENT LIKE '120OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 

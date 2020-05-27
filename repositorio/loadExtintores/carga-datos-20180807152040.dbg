@@ -1,0 +1,10 @@
+NoCteDbg >>1309<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=1309 AND cont.no_cliente=1309;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>MAYAPCK IMPRESOS, S.A. DE C.V.<< 
+DireccionCliente >>VICENTE GUERRERO / 71 / COL REFORMA /  / TOLUCA / ESTADO DE MEXICO-50200<< 
+Correo >>janet_pacheco@mayapack.com.mx<< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='1309' AND ID_PG_PH LIKE '1309%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport1309.json<< 

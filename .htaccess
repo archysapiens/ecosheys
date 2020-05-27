@@ -1,0 +1,46 @@
+AddDefaultCharset utf-8
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    Options All -Indexes
+	#Session timeout
+        #php_value session.cookie_lifetime 1200
+        #php_value session.gc_maxlifetime 1200
+</IfModule>
+# ocultar errores de php
+#php_flag display_startup_errors off
+#php_flag display_errors off
+#php_flag html_errors off
+#php_flag  log_errors off
+
+<IfModule mod_php5.c>
+   php_value upload_max_filesize 50M
+   php_value post_max_size 50M
+</IfModule>
+
+# protect bd.php
+<files bd.php>
+order allow,deny
+deny from all
+</files>
+
+# protect base64.php
+<files base64.php>
+order allow,deny
+deny from all
+</files>
+
+# protect control_session.php
+<files control_session.php>
+order allow,deny
+deny from all
+</files>
+
+
+ErrorDocument 400 "<body bgcolor=black><br><br><br><br><center><font size=6 color=white>Error Desconocido</font><br><br><a href='../'>Regresame</a></center></body>"
+ErrorDocument 401 "<body bgcolor=black><br><br><br><br><center><font size=6 color=white>Error Desconocido</font><br><br><a href='../'>Regresame</a></center></body>"
+ErrorDocument 403 /ArchysoftMVC/EcosheysNew/template/403.html
+ErrorDocument 404 /ArchysoftMVC/EcosheysNew/template/404.html
+ErrorDocument 500 /ArchysoftMVC/EcosheysNew/template/500.html
+
+
+

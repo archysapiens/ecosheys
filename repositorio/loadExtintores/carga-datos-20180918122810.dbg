@@ -1,0 +1,10 @@
+NoCteDbg >>3006<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=3006 AND cont.no_cliente=3006;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>YESENIA CONTRERAS LOPEZ<< 
+DireccionCliente >>HACIENDA CANTERA /  / 11 /  / NEXTLALPAN / ESTADO DE MEXICO-55790<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='3006' AND ID_ORDENT LIKE '3006%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='3006' AND ID_ORDENT LIKE '3006OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 

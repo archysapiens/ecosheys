@@ -1,0 +1,10 @@
+NoCteDbg >>784<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=784 AND cont.no_cliente=784;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>DAY  INTERNATIONAL DE MEXICO SA DE CV  << 
+DireccionCliente >>SAN RAFAEL /  / 36 /  / LERMA / ESTADO DE MEXICO-52000<< 
+Correo >>cfd.daymexici@flintgroup.com<< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='784' AND ID_PG_PH LIKE '784%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport784.json<< 

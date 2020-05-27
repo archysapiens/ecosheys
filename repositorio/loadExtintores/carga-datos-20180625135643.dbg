@@ -1,0 +1,14 @@
+NoCteDbg >>536<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=536 AND cont.no_cliente=536;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>PRODUCTOS DUNA SA DE CV<< 
+DireccionCliente >>CALLE 3 LOTE 8 MZA VIII /  /  / TOLUCA / TOLUCA / ESTADO DE MEXICO-50200<< 
+Correo >>fact.elec@duna.com.mx; mreyes@duna.com.mx<< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='536' AND ID_ORDENT LIKE '536%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='536' AND ID_ORDENT LIKE '536OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='536' AND ID_ORDENT LIKE '536%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>17<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

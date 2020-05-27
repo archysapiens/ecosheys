@@ -1,0 +1,10 @@
+NoCteDbg >>2473<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=2473 AND cont.no_cliente=2473;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>NOE ALVAREZ SALVADOR<< 
+DireccionCliente >>MORELOS / COL. CENTRO / 7 / VILLA GUERRERO / VILLA GUERRERO / ESTADO DE MEXICO-51760<< 
+Correo >>archy.sapiens@gmail.com<< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='2473' AND ID_ORDENT LIKE '2473%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='2473' AND ID_ORDENT LIKE '2473OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 

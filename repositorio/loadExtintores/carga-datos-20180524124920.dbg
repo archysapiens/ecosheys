@@ -1,0 +1,14 @@
+NoCteDbg >>1197<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=1197 AND cont.no_cliente=1197;<< 
+count >>1<< 
+NombreCliente >>MULTIGENERICOS PONIENTE  << 
+NombreClienteMo >>MULTIGENERICOS PONIENTE  << 
+DireccionCliente >>ASTURIAS /  / 226 / ALAMOS / BENITO JUAREZ / DISTRITO FEDERAL-03400<< 
+Correo >>panteras90@hotmail.com<< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='1197' AND ID_ORDENT LIKE '1197%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='1197' AND ID_ORDENT LIKE '1197OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='1197' AND ID_ORDENT LIKE '1197%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>0<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

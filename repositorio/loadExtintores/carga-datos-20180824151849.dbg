@@ -1,0 +1,10 @@
+NoCteDbg >>612<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=612 AND cont.no_cliente=612;<< 
+count >>1<< 
+NombreCliente >>TM TOLUCA SA DE CV (ZINACANTEPEC)  << 
+NombreClienteMo >>TM TOLUCA SA DE CV (ZINACANTEPEC)  << 
+DireccionCliente >>VIALIDAD ADOLFO LOPEZ MATEOS / 164 / COLONIA LA JOYA / SAN MIGUEL ZINACANTEPEC / ZINACANTEPEC / ESTADO DE MEXICO-51350<< 
+Correo >><< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='612' AND ID_PG_PH LIKE '612%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport612.json<< 

@@ -1,0 +1,10 @@
+NoCteDbg >>1108<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=1108 AND cont.no_cliente=1108;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>SORRY MOM INK PARLOR / GABRIELA LOPEZ VILLALPANDO  << 
+DireccionCliente >>JOSE VASCONSELOS / 4 / 59 / DEL. MIGUEL HIDALGO / DEL. MIGUEL HIDALGO / DISTRITO FEDERAL-11850<< 
+Correo >><< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='1108' AND ID_PG_PH LIKE '1108%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport1108.json<< 

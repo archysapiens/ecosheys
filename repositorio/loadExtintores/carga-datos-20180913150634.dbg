@@ -1,0 +1,14 @@
+NoCteDbg >>2510<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=2510 AND cont.no_cliente=2510;<< 
+count >>1<< 
+NombreCliente >>ALICIA IVETH LOPEZ ESTRADA<< 
+NombreClienteMo >>ALICIA IVETH LOPEZ ESTRADA<< 
+DireccionCliente >>JOSEFA ORTIZ DE DOMINGUEZ / 3 PISO/ CONSULTORIO / 538 /  / METEPEC / ESTADO DE MEXICO-<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='2510' AND ID_ORDENT LIKE '2510%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='2510' AND ID_ORDENT LIKE '2510OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
+QuerySearchOrdenStore >>SELECT FECHA_REGISTRO,NO_FOLIO,RUTA_JSON FROM ordent_ext WHERE NO_CLIENTE='2510' AND ID_ORDENT LIKE '2510%OT' GROUP BY NO_CLIENTE<< 
+Else DiffDateTime->days>>15<< 
+Antes del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  
+depues  del while(rowRefac = recOrdenDeTRefac->fetch_assoc())  

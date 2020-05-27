@@ -1,0 +1,8 @@
+NoCteDbg >>252<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=252 AND cont.no_cliente=252;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>ITZEL VALLEJO CNSUELO<< 
+DireccionCliente >>AQUILES SERDAN /  / 103 / TOLUCA / TOLUCA / ESTADO DE MEXICO-<< 
+Correo >><< 
+TypeAutocomplite >>CheckList<< 

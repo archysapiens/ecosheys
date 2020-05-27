@@ -1,0 +1,80 @@
+.with-nav-tabs{
+	padding: 5px 5px 0 5px;
+}
+.with-nav-tabs .nav-tabs{
+	border-bottom: none;
+}
+/********************************************************************/
+/*** PANEL SUCCESS ***/
+.with-nav-tabs.panel-success .nav-tabs > li > a,
+.with-nav-tabs.panel-success .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li > a:focus {
+	font-size: medium;
+	margin-bottom:30px;	
+	color: #7A7F7E;
+	background-color: #fff;
+	/* border-color: #CFD3CB; */
+	border-color: #d6e9c6;
+	border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-success .nav-tabs > .open > a,
+.with-nav-tabs.panel-success .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-success .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li > a:focus {
+	background-color: #1ab594;
+    border-color: #1ab394;
+    color: #FFFFFF;
+}
+.with-nav-tabs.panel-success .nav-tabs > li.active > a,
+.with-nav-tabs.panel-success .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-success .nav-tabs > li.active > a:focus {
+	background-color: #18a689;
+    border-color: #18a689;
+    color: #FFFFFF;
+	border-bottom-color: transparent;
+}
+
+@media screen and (max-width: 600px){
+	.with-nav-tabs{
+		padding: 1px 1px 0 1px;
+	}
+	.with-nav-tabs .nav-tabs{
+		border-bottom: none;
+	}
+	/********************************************************************/
+	/*** PANEL SUCCESS ***/
+	.with-nav-tabs.panel-success .nav-tabs > li > a,
+	.with-nav-tabs.panel-success .nav-tabs > li > a:hover,
+	.with-nav-tabs.panel-success .nav-tabs > li > a:focus {
+		font-size: 5px;
+		margin-bottom:9px;	
+		color: #7A7F7E;
+		background-color: #fff;
+		/* border-color: #CFD3CB; */
+		border-color: #d6e9c6;
+		border-bottom-color: transparent;
+	}
+	.with-nav-tabs.panel-success .nav-tabs > .open > a,
+	.with-nav-tabs.panel-success .nav-tabs > .open > a:hover,
+	.with-nav-tabs.panel-success .nav-tabs > .open > a:focus,
+	.with-nav-tabs.panel-success .nav-tabs > li > a:hover,
+	.with-nav-tabs.panel-success .nav-tabs > li > a:focus {
+		background-color: #1ab594;
+		border-color: #1ab394;
+		color: #FFFFFF;
+	}
+	.with-nav-tabs.panel-success .nav-tabs > li.active > a,
+	.with-nav-tabs.panel-success .nav-tabs > li.active > a:hover,
+	.with-nav-tabs.panel-success .nav-tabs > li.active > a:focus {
+		background-color: #18a689;
+		border-color: #18a689;
+		color: #FFFFFF;
+		border-bottom-color: transparent;
+	}
+	
+	.nav-tabs > li > a {
+		font-weight: 10;
+		padding: 2px 5px 5px 5px;
+	}
+}

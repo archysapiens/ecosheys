@@ -1,0 +1,10 @@
+NoCteDbg >>2503<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=2503 AND cont.no_cliente=2503;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>PASEMA ALIMENTOS SA DE CV  << 
+DireccionCliente >>AVENIDA JOSE LOPEZ PORTILLO KM. 4.5 / CENTRAL DE ABASTOS / BODEGA 25 Y 26 /  /  / -<< 
+Correo >>teflores@qualtia.com<< 
+TypeAutocomplite >>PolizaGarantia<< 
+QuerySearchOrden >>SELECT * FROM poliza_ext WHERE NO_CLIENTE='2503' AND ID_PG_PH LIKE '2503%PG' GROUP BY NO_CLIENTE<< 
+getRutaJson >>../../repositorio/DataJson/DataExtintores/PolizaGarantia/TOLUCA/dataReport2503.json<< 

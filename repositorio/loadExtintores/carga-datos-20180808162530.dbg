@@ -1,0 +1,10 @@
+NoCteDbg >>101<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=101 AND cont.no_cliente=101;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>GERARDO ESCUDERO ALVAREZ<< 
+DireccionCliente >>20 DE NOVIEMBRE / D / 405 / SAN MATEO OXTOTITLAN / TOLUCA / ESTADO DE MEXICO-<< 
+Correo >><< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='101' AND ID_ORDENT LIKE '101%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='101' AND ID_ORDENT LIKE '101OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 

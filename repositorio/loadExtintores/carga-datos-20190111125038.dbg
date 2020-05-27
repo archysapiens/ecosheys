@@ -1,0 +1,10 @@
+NoCteDbg >>20<< 
+QuerySearch >>SELECT cont.NOMBRE_C,cont.APP_PATERNO_C,cont.APP_MATERNO_C,cont.EMAIL,emp.GIRO,emp.NOMBRE,emp.APP_PATERNO,emp.APP_MATERNO,emp.ESTADO,emp.DEL_MPIO,emp.COLONIA,emp.CP,emp.CALLE,emp.NUM_EXT,emp.NUM_INT FROM empresas AS emp,contactos AS cont  WHERE emp.no_cliente=20 AND cont.no_cliente=20;<< 
+count >>1<< 
+NombreCliente >>  << 
+NombreClienteMo >>LETICIA VENCES BENITEZ<< 
+DireccionCliente >>ALFREDO DEL MAZO /  / 66 / ATLACOMULCO / ATLACOMULCO / ESTADO DE MEXICO-50457<< 
+Correo >>juanpablo-clinica@hotmail.com<< 
+TypeAutocomplite >>OrdenDeTrabajo<< 
+QuerySearchOrden >>SELECT * FROM ordent_ext WHERE NO_CLIENTE='20' AND ID_ORDENT LIKE '20%OT' GROUP BY NO_CLIENTE<< 
+QuerySearchOrdenRefac >>SELECT ID_REFACCIONES,PIEZAS_REFACCION FROM ordent_ext WHERE NO_CLIENTE='20' AND ID_ORDENT LIKE '20OT%' AND (ID_REFACCIONES !='' OR PIEZAS_REFACCION !='')<< 
